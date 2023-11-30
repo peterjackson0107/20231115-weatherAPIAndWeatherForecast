@@ -1,0 +1,63 @@
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+body.dark-mode {
+  background-color: #111;
+  color: #eee;
+}
+body.dark-mode a {
+  color: #111;
+}
+body.dark-mode button {
+  background-color: #eee;
+  color: #111;
+}
+
+body.light-mode {
+  background-color: #eee;
+  color: #111;
+}
+body.light-mode a {
+  color: #111;
+}
+body.light-mode button {
+  background-color: #111;
+  color: #eee;
+}
+
+.mainArea h1 {
+  position: absolute;
+  top: 10%;
+  left: 38%;
+  font-family: "Noto Sans TC", sans-serif;
+  font-size: 70px;
+}
+.mainArea select {
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  font-family: "Noto Sans TC", sans-serif;
+}
+.mainArea option {
+  font-size: 20px;
+  font-family: "Noto Sans TC", sans-serif;
+}
+.mainArea .card {
+  background-color: rgb(220, 191, 255);
+  position: absolute;
+  top: 40%;
+  left: 35%;
+}
+.mainArea p {
+  color: #000;
+  font-family: "Noto Sans TC", sans-serif;
+}
+.mainArea .fa-sun {
+  position: absolute;
+  top: 20%;
+  left: 60%;
+  font-size: 130px;
+  color: yellow;
+}/*# sourceMappingURL=style.css.map */

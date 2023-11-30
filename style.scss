@@ -1,0 +1,78 @@
+$dark-color: #111;
+$light-color: #eee;
+$font-family: 'Noto Sans TC', sans-serif;
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+body.dark-mode {
+    background-color: $dark-color;
+    color: $light-color;
+
+    a {
+        color: $dark-color;
+    }
+
+    button {
+        background-color: $light-color;
+        color: $dark-color;
+    }
+}
+
+body.light-mode {
+    background-color: $light-color;
+    color: $dark-color;
+
+    a {
+        color: $dark-color;
+    }
+
+    button {
+        background-color: $dark-color;
+        color: $light-color;
+    }
+}
+
+.mainArea {
+    h1 {
+        position: absolute;
+        top: 10%;
+        left: 38%;
+        font-family: $font-family;
+        font-size: 70px;
+    }
+
+    select {
+        position: absolute;
+        top: 20%;
+        left: 35%;
+        font-family: $font-family;
+    }
+
+    option {
+        font-size: 20px;
+        font-family: $font-family;
+    }
+
+    .card {
+        background-color: rgb(220, 191, 255);
+        position: absolute;
+        top: 40%;
+        left: 35%;
+    }
+
+    p {
+        color: #000;
+        font-family: $font-family;
+    }
+
+    .fa-sun {
+        position: absolute;
+        top: 20%;
+        left: 60%;
+        font-size: 130px;
+        color: yellow;
+    }
+}
