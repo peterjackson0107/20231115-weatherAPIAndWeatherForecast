@@ -15,6 +15,7 @@ https://peterjackson0107.github.io/20231115-weatherAPIAndWeatherForecast/
 - fontawesome
 - colorhunt
 - fetch
+
 ```
 fetch("API網址")
   .then(response => response.json())
