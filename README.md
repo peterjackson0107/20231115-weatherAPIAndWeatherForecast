@@ -1,4 +1,4 @@
-# 2023.11.15 (天氣預報) (天気予報)
+# 2023.11.15 (台灣天氣預報) (台湾天気予報)
 
 ## 網址 (ウェブ)
 https://peterjackson0107.github.io/20231115-weatherAPIAndWeatherForecast/
